@@ -6,7 +6,7 @@ swap_max (int arr[], int length, int position)
 {
   int max = position;
   int temp = 0;
-  for (int i = position; i < length; i++)
+  for (int i = position; i < length-1; i++)
     {
       if (arr[i + 1] > arr[max])
 	{
